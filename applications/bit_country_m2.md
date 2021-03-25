@@ -30,18 +30,18 @@
 | 1a. | Spot Neighbor (Auction) Protocol | Controls which users are able to participate in auctions for spots, allows existing neighboring spots to have their say on a potential occupier of the new spot. |
 | 1b. | Spot Leasing Protocol | Determines the valid period of leasing a continuum spot, enabling right of renewal for existing lessors. |
 | 1c. | Spot Neighbor (Governance) Protocol | Gives neighboring spots the ability to raise disputes with other spots, which can be voted on and actioned. Designed to improve neighborhood quality. |
-| 2. | Substrate module: NftPromotion | Our network is NFT native chain. This pallet manages NFT campaigns that we will create to incentivize NFT creators, traders and minters. |
+| 2. | Substrate module: NftPromotion | Our network is NFT native chain. This pallet manages NFT campaigns that we will create to incentivize NFT creators, traders and minters. (e.g. subsidies on costs or other incentive) |
 |	3.	|	Substrate: NFT Minting - Extended |	While using ORML trait as a base, we will be implementing co-creator, origin details, NFT-Future-Event (e.g. time capsule), Smart Contract Enabled NFT (e.g. give NFTs programmability). |
-| 4. | Connected to Rococo | Applying to join as a parachain on Rococo, requires frequent migrations to the newest version of pallets and reapplication for the parachain. Aim to be included as soon as possible. |
+| 4. | Connected to Rococo | Become a parachain on Rococo, requires frequent migrations to the newest version of pallets and reapplication for the parachain. Aim to be included as soon as possible. |
 |	5. |	Dapp - Dual Login |	Support login using either PolkadotJs or classical username and password login. We need to do some engineering to make this happens so we can bring more users outside of the ecosystem. |
 |	6. |	Dapp - Continnum	|	Continuum is the universal map of bit countries. We will be developing a mapping system (think Google Maps), using OpenLayer or similar. Provides the interface for all of our activities related to Continuum. |
 | 6a. | Bit Country Search | Enable a user to search for a bit country on the Continuum with zoom to location. |
 | 6b. | Spot Auction UI | Allow users to see which spots are currently being auctioned, and enable their participation. |
 | 6c. | Spot Neighbor UI | Interface to raise disputes with neighboring spots, or to object to a potential bidder in auctions. |
 | 6d. | Layer System | Population heatmap and possibly other map overlays to provide insights to users. |
-|	7.	|	Dapp - Local NFT Market	|	Develop the decetralized marketplace local to a bit country - enables local market and value creation. |
-|	8.	|	Dapp - Local Ownership Board	|	Screen to display the local token owners and their rankings. |
-|	9.	|	Dapp - 2D <-> 3D	|	Implement the composite UI between 3D and 2D. Users in 3D can access 2D timeline without changing the page. |
+|	7.	|	Dapp - Local NFT Market	|	Develop the local bit country marketplace (like a subset of the platform-wide marketplace) for local market and value creation. Some items will only be able within the local NFT market, encouraging users to belong to quality bit countries. Included functionality: listing items, searching, auctions, purchases, rentals |
+|	8.	|	Dapp - Local Ownership Board	|	Screen to display the local token owners and their rankings (how their token quantities compare to other token holders). |
+|	9.	|	Dapp - 2D <-> 3D	|	Implement the composite UI between 3D and 2D. Users in 3D can access 2D timeline without changing the page (leaving the virtual world). |
 |	10.	|	Dapp - 3D templates	|	Develop some 3D templates for users to use to bootstrap their virtual world. (e.g. Mars, Cyberpunk, Kusama Canary theme) |
 |	11.	|	Dapp - Dashboard |	Summary page of current system: blocks, bit countries, recent events, economic overview etc. The webapp landing page. |
 |	12.	|	Dapp - Bootstrap	|	Our goal is to launch the testnet after this milestone, we will be creating honor-effort-on-the-testnet campaigns to attract users to engage with us. We will also setup public idea board allowing visitors to create new ideas and vote for existing ideads. |
