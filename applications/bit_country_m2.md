@@ -6,9 +6,17 @@
 
 ## Development Roadmap :nut_and_bolt: 
 
-### Short Summary
+### Summary
+Since completing the first milestone for Bit.Country, we have developed multiple proof of concepts for newer features such as Continuum (the map of bit countries), the marketplaces and NFT minting. 
 
+We have also developed the virtual world further, implementing collaborative building, material packs, persistance of changes and general tweaks to the UI and experience. Currently undergoing basic user testing and demoing to interested parties. 
 
+Other work has included changes to the design and layout of the DApp; improved sharing experience for posts and content created on the bit country timelines; migration to improve scalability.
+
+### Considerations
+We have been investigating the possibility of using decentralized storage for more aspects of bit country content and storage needs, a basic proof of concept is being worked on.
+
+The team has been reconsidering the block planner for a bit country and its related block theme feature as part of milestone 1. We are now looking at separating the logic to enable a smoother experience between users who wish to use a predesigned template or build from scratch.
 
 ### Overview
 * **Total Estimated Duration:** 1 month
