@@ -13,6 +13,8 @@ We have also developed the virtual world further, implementing collaborative bui
 
 Other work has included changes to the design and layout of the DApp; improved sharing experience for posts and content created on the bit country timelines; migration to improve scalability.
 
+The team has also been applying for a number of accelerators, and receiving attention/interest from multiple VCs, funds and KOLs. Currently, oversubscribed so negotiating with them to determine the initial round allocations. The team has recently been accepted into the Berkeley Blockchain Xcelerator cohort of 2021. Currently in talks with VCs, funds and KOLs who have reach to over 40 million fans. If you are interested to hear more about our current progress, please email us at hi@bit.country
+
 ### Considerations
 We have been investigating the possibility of using decentralized storage for more aspects of bit country content and storage needs, a basic proof of concept is being worked on.
 
@@ -35,9 +37,9 @@ The team has been reconsidering the block planner for a bit country and its rela
 | 0b. | Documentation | We will provide inline documentation, video, medium articles & creating more content in the lightpaper of the project. |
 | 0c. | Testing Guide | The code will have proper unit-test coverage for pallets and automated testing coverage for the dapp using Cypress. | 
 | 1. | Substrate module: Continuum | This pallet handles the Continuum protocols for shaping the map of the bit countries. |
-| 1a. | Spot Neighbor (Auction) Protocol | Controls which users are able to participate in auctions for spots, allows existing neighboring spots to have their say on a potential occupier of the new spot. |
-| 1b. | Spot Leasing Protocol | Determines the valid period of leasing a continuum spot, enabling right of renewal for existing lessors. |
-| 1c. | Spot Neighbor (Governance) Protocol | Gives neighboring spots the ability to raise disputes with other spots, which can be voted on and actioned. Designed to improve neighborhood quality. |
+| 1a. | Spot Good Neighbor (Auction) Protocol | Controls which users are able to participate in auctions for spots, allows existing neighboring spots to have their say on a potential occupier of the new spot. |
+| 1b. | Spot Leasing Protocol | Allows owners to lease their spot to others. Determines the valid period of leasing a continuum spot, enabling right of renewal for existing lessors. |
+| 1c. | Spot Good Neighbor (Governance) Protocol | Gives neighboring spots the ability to raise disputes with other spots, which can be voted on and actioned. Designed to improve neighborhood quality. |
 | 2. | Substrate module: NftPromotion | Our network is NFT native chain. This pallet manages NFT campaigns that we will create to incentivize NFT creators, traders and minters. (e.g. subsidies on costs or other incentive) |
 |	3.	|	Substrate: NFT Minting - Extended |	While using ORML trait as a base, we will be implementing co-creator, origin details, NFT-Future-Event (e.g. time capsule), Smart Contract Enabled NFT (e.g. give NFTs programmability). |
 | 4. | Connected to Rococo | Become a parachain on Rococo, requires frequent migrations to the newest version of pallets and reapplication for the parachain. Aim to be included as soon as possible. |
